@@ -1,0 +1,22 @@
+{
+  "name": "oakey-dokey-farmstead",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sairoden/Oakey-Dokey-Farmstead.git"
+  },
+  "author": "Sairoden Gandarosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sairoden/Oakey-Dokey-Farmstead/issues"
+  },
+  "homepage": "https://github.com/Sairoden/Oakey-Dokey-Farmstead#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
