@@ -13,7 +13,7 @@
       href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/155/ear-of-maize_1f33d.png"
     />
 
-    <title>NODE FARM</title>
+    <title>Oakey Dokey Farmstead</title>
 
     <style>
       *,
@@ -32,14 +32,18 @@
       body {
         padding: 5rem 5rem 10rem;
         line-height: 1.7;
-        font-family: 'Nunito Sans', sans-serif;
+        font-family: "Nunito Sans", sans-serif;
         color: #555;
         min-height: 100vh;
-        background: linear-gradient(to bottom right, #9be15d, #00e3ae);
+        background: linear-gradient(
+          to bottom right,
+          #eb3349,
+          #f45c43
+        ); 
       }
 
       h1 {
-        font-family: 'Megrim', sans-serif;
+        font-family: "Megrim", sans-serif;
         font-size: 6rem;
         color: white;
         transform: skewY(-5deg);
@@ -49,14 +53,14 @@
       }
 
       h1::before {
-        content: '';
+        content: "";
         display: block;
         height: 65%;
         width: 49%;
         position: absolute;
         top: 105%;
         left: 50%;
-        background: linear-gradient(to bottom, #9be15d, #00e3ae);
+        background: linear-gradient(to bottom, #eb3349, #f45c43);
         opacity: 0.8;
         z-index: -1;
         transform: skewY(370deg) translate(-50%, -50%);
@@ -89,7 +93,7 @@
       }
 
       .card__title-box {
-        background: linear-gradient(to bottom, #9be15d, #00e3ae);
+        background: linear-gradient(to top, #eb3349, #f45c43);
         margin-right: auto;
         display: flex;
         align-items: center;
@@ -97,7 +101,7 @@
       }
 
       .card__title {
-        font-family: 'Megrim', sans-serif;
+        font-family: "Megrim", sans-serif;
         color: white;
         font-size: 3.25rem;
         transform: skewX(20deg);
@@ -129,7 +133,7 @@
         font-weight: 900;
         text-transform: uppercase;
         font-size: 1.9rem;
-        background-image: linear-gradient(to right, #9be15d, #00e3ae);
+        background: linear-gradient(to right, #eb3349, #f45c43);
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
@@ -143,7 +147,7 @@
       .card__link:link,
       .card__link:visited {
         flex: 0 0 auto;
-        background-color: #79e17b;
+        background-color: #eb3349;
         color: white;
         font-size: 1.6rem;
         font-weight: 900;
@@ -159,7 +163,7 @@
 
       .card__link:hover,
       .card__link:active {
-        background-color: #9be15d;
+        background-color: #eb1d35;
       }
 
       .card__link span {
@@ -189,11 +193,9 @@
 
   <body>
     <div class="container">
-      <h1>🌽 Node Farm 🥦</h1>
+      <h1>🍎 Oakey Dokey Farmstead 🍍</h1>
 
-      <div class="cards-container">
-        {%PRODUCT_CARDS%}
-      </div>
+      <div class="cards-container">{%PRODUCT_CARDS%}</div>
     </div>
   </body>
 </html>
