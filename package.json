@@ -4,7 +4,10 @@
   "description": "",
   "default": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "start:dev": "parcel index.js",
+    "build": "parcel build index.js --dist-dir ./dist"
   },
   "repository": {
     "type": "git",
@@ -18,5 +21,8 @@
   "homepage": "https://github.com/Sairoden/Oakey-Dokey-Farmstead#readme",
   "devDependencies": {
     "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "parcel": "^2.0.0-beta.2"
   }
 }
