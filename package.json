@@ -18,7 +18,6 @@
   "bugs": {
     "url": "https://github.com/Sairoden/Oakey-Dokey-Farmstead/issues"
   },
-  "homepage": "https://github.com/Sairoden/Oakey-Dokey-Farmstead#readme",
   "devDependencies": {
     "nodemon": "^2.0.7"
   },
